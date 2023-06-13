@@ -1,0 +1,109 @@
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>ItCamp</title>
+</head>
+<body>
+<header class="header">
+    <div class="mainHeading">
+        <h1>Стойленский ГОК</h1>
+        <span class="secondaryText">
+            Стойленский ГОК является одним из ведущих предприятий в отрасли горнодобывающей и обогатительной
+            промышленности в России. Комбинат специализируется на добыче и обогащении железных руд. Он осуществляет
+            комплексную цепочку производства, включающую горнодобывающие работы, обогащение руды, переработку и
+            производство конечной продукции.
+        </span>
+    </div>
+    <div class="secondaryHeading">
+        <span>Получения рекомендаций по загрузке шаров в мельницу</span>
+        <button onclick="scrollToForm()">Бесплатная рекомендация</button>
+    </div>
+</header>
+<main class="mainContent">
+    <span class="mainText">
+        Стойленский горно-обогатительный комбинат (ГОК) — российский производитель железорудного сырья. Комбинат
+        находится в городе Старый Оскол, расположенном в Белгородской области России.
+    </span>
+    <span class="factsGrid">
+        <div class="factCard">
+            Стойленский ГОК был основан в 1973 году.
+            <img src="./assets/images/view_compact.svg" alt="photo">
+        </div>
+        <div class="factCard">
+            Комбинат находится в городе Старый Оскол, Белгородская область.
+            <img src="./assets/images/videocam.svg" alt="photo">
+        </div>
+        <div class="factCard">
+            Комбинат специализируется на добыче и обогащении железной руды.
+            <img src="./assets/images/apartment.svg" alt="photo">
+        </div>
+        <div class="factCard">
+            В составе Стойленского ГОКа есть горные разрезы и обогатительные фабрики.
+            <img src="./assets/images/compact.svg" alt="photo">
+        </div>
+        <div class="factCard">
+            Продукция комбината экспортируется в различные страны мира.
+            <img src="./assets/images/cam.svg" alt="photo">
+        </div>
+        <div class="factCard">
+            Соблюдение экологических норм и внедрению современных технологий.
+            <img src="./assets/images/cer.svg" alt="photo">
+        </div>
+    </span>
+    <section class="formDecide">
+        <h2>рекомендация по загрузке шаров в мельницу</h2>
+        <div>
+            <label>
+                <input type="number" id="elem1" placeholder="Необходимая загрузка" required>
+            </label>
+            <label>
+                <input type="text" id="elem2" placeholder="Вес шаров в мельнице" required>
+            </label>
+        </div>
+        <button onclick="myFunk()" type="submit" class="approveBtn">Рассчитать</button>
+    </section>
+</main>
+<footer class="footer">
+    <div class="leftSide">
+        <section>
+            <h3>
+                Стойленский ГОК
+            </h3>
+            <p>
+                Стойленский ГОК играет значительную роль в развитии экономики Белгородской области и создает рабочие
+                места для местного населения. Комбинат активно взаимодействует с социальными и общественными
+                организациями, поддерживая проекты и инициативы, направленные на улучшение условий жизни в регионе.
+            </p>
+        </section>
+    </div>
+    <div class="rightSide">
+        <section>
+            <h3>Офис продаж</h3>
+            +7 (4725) 41-65-62</br>
+            <span>
+                Пн-Пт: с 09:00 до 20:00</br>
+                Сб-Вс: с 10:00 до 17:00</br></br>
+            </span>
+            info.sgok@nlmk.com</br></br>
+            309504, Белгородская область, г. Старый Оскол,площадка Фабричная, пр-д-4 (ЮЗ, п/р промзона)
+        </section>
+        <section>
+            <h3>Медиа-центр</h3>
+            +7 (4725) 41-65-62</br>
+            <span>
+                Пн-Пт: с 09:00 до 20:00</br></br>
+            </span>
+            309504, Белгородская область, г. Старый Оскол,площадка Фабричная, пр-д-4 (ЮЗ, п/р промзона)
+        </section>
+    </div>
+</footer>
+</body>
+</html>
